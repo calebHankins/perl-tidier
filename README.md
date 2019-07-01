@@ -23,7 +23,7 @@ docker build --rm -f "Dockerfile" -t perl-tidier .
 ```
 # Run
 
-Swap '`c:/git/join-hero`' with the root path for your perl project. This project is expecting a `.tidyallrc` at the root of your project.
+Swap '`c:/git/join-hero`' with the root path for your perl project. This project is expecting a [.tidyallrc](https://metacpan.org/pod/distribution/Code-TidyAll/bin/tidyall) at the root of your project.
 
 ## Just tidyall my Files Please
 
