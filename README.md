@@ -1,5 +1,8 @@
 # perl-tidier
 
+[![Docker Cloud Automated build](https://img.shields.io/docker/cloud/automated/calebhankins/perl-tidier.svg?style=flat-square)](https://hub.docker.com/r/calebhankins/perl-tidier/)
+[![Docker Cloud Build Status](https://img.shields.io/docker/cloud/build/calebhankins/perl-tidier.svg?style=flat-square)](https://hub.docker.com/r/calebhankins/perl-tidier/)
+
 A Docker file to tidy perl code. Windows and Linux seem to have some kind of slight difference when applying tidy rules. This docker image will apply the Debian flavor to the mounted folder paired with the container's `/src/tidy-me` folder. 
 
 - [perl-tidier](#perl-tidier)
