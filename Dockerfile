@@ -7,9 +7,6 @@ RUN cpanm --notest Test::Code::TidyAll && cpanm --notest Perl::Tidy && cpanm --n
 RUN cpanm --notest Log::Log4perl && cpanm --notest Module::Build
 RUN cpanm --notest Graph && cpanm --notest JSON && cpanm --notest XML::Twig
 
-# Turn on author tests
-ARG TEST_AUTHOR=1
-
 # Start in the dir we're going to mount to tidy / test
 WORKDIR /src/tidy-me
 
